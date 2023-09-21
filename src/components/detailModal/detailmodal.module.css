@@ -1,0 +1,82 @@
+.container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.wrapper {
+  min-height: 80vh;
+  min-width: 40vw;
+  background-color: var(--bg);
+  padding: 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.7);
+  position: relative;
+}
+
+.cross {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: red;
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border: 1px solid var(--colorA);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.wrapper h2 {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.image {
+  height: 20rem;
+  width: 20rem;
+}
+
+.image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.others {
+  font-size: 1.2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.others p {
+  display: flex;
+  gap: 0.4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.others span {
+  color: var(--colorB);
+}
+
+.color {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
